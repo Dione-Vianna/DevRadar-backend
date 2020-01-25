@@ -26,4 +26,4 @@ app.use(routes);
 // Route Params: request.params (Identificar um recurso na alteração, remoção)
 // Body: request.body (Dados para criação ou alteração de um registro)
 
-server.listen(3333);
+server.listen(process.env.PORT || 3333);
